@@ -44,7 +44,7 @@ public class RadioTest {
     }
 
     @Test
-    public void RadioStationNumberMinNegative () {
+    public void RadioStationNumberMinNegative() {
         Radio radio = new Radio();
 
         radio.setCurrentRadioStationNumber(-1);
@@ -174,6 +174,7 @@ public class RadioTest {
         int actual = radio.getSoundVolume();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void SoundVolumeReduceVolumeNegative() {
         Radio radio = new Radio();
